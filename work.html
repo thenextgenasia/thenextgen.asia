@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Metas -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+
+    <!-- Title  -->
+    <title>Work | The Next Generation</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162944847-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-162944847-2');
+    </script>
+
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,500,600,700,800,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+
+
+    <!-- Plugins -->
+    <link rel="stylesheet" href="css/plugins.css" />
+
+    <!-- Core Style Css -->
+    <link rel="stylesheet" href="css/style.css" />
+
+</head>
+
+<body>
+
+    <!-- ==================== Start Loading ==================== -->
+
+    <div id="preloader">
+    </div>
+
+    <!-- ==================== End Loading ==================== -->
+
+
+
+    <!-- ==================== Start progress-scroll-button ==================== -->
+
+    <div class="progress-wrap cursor-pointer">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+
+    <!-- ==================== End progress-scroll-button ==================== -->
+
+
+
+    <!-- ==================== Start cursor ==================== -->
+
+    <div class="mouse-cursor cursor-outer"></div>
+    <div class="mouse-cursor cursor-inner"></div>
+
+    <!-- ==================== End cursor ==================== -->
+
+
+
+    <!-- ==================== Start Navbar ==================== -->
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+
+            <!-- Logo -->
+            <a class="logo" href="index.html">
+                <img src="img/logo-light.png" alt="logo">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="icon-bar"><i class="fas fa-bars"></i></span>
+            </button>
+
+            <!-- navbar links -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="work.html">Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- ==================== End Navbar ==================== -->
+
+
+
+    <!-- ==================== Start header ==================== -->
+
+    <header class="works-header fixed-slider hfixd valign">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-9 col-md-11 static">
+                    <div class="capt mt-50">
+                        <div class="parlx">
+                            <h2 class="custom-font">Our amazing works</h2>
+
+                        </div>
+
+                        <div class="bactxt custom-font valign">
+                            <span class="full-width">Works</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ==================== End header ==================== -->
+
+
+
+    <div class="main-content">
+
+        <!-- ==================== Start works ==================== -->
+
+        <section class="portfolio section-padding pb-70">
+            <div class="container">
+                <div class="row">
+
+                    <!-- filter links -->
+                    <div class="filtering text-right smplx col-12">
+                        <div class="filter">
+                            <span data-filter='*' class="active">All</span>
+                            <span data-filter='.projects'>Projects</span>
+                            <span data-filter='.competitions'>Competitions</span>
+                            <span data-filter='.workshops'>Workshops</span>
+                            <span data-filter='.coming-up'>Next</span>
+                        </div>
+                    </div>
+
+                    <!-- gallery -->
+                    <div class="gallery full-width">
+
+                        <!-- gallery item -->
+                        <div class="col-lg-4 col-md-6 items competitions">
+                            <div class="item-img wow fadeInUp" data-wow-delay=".4s">
+                                <a href="https://aquila.team">
+                                    <img src="img/portfolio/aquila/small.webp" alt="image">
+
+                                </a>
+                            </div>
+                            <div class="cont">
+                                <h6>Team Aquila</h6>
+                                <span>competitions, National</span>
+                            </div>
+                        </div>
+
+                            <!-- gallery item -->
+                            <div class="col-lg-4 col-md-6 items projects">
+                                <div class="item-img wow fadeInUp" data-wow-delay=".4s">
+                                    <a href="https://anchor.fm/nextcast">
+                                        <img src="img/portfolio/nextcast/small.webp" alt="image">
+    
+                                    </a>
+                                </div>
+                                <div class="cont">
+                                    <h6>NextCast</h6>
+                                    <span>Project, Podcast</span>
+                                </div>
+                            </div>
+
+                        
+
+                        <!-- gallery item -->
+                        <div class="col-lg-4 col-md-6 items projects">
+                            <div class="item-img wow fadeInUp" data-wow-delay=".4s">
+                                <a href="combat-corona.html">
+                                    <img src="img/portfolio/Combatcorona/small.webp" alt="image">
+
+                                </a>
+                            </div>
+                            <div class="cont">
+                                <h6>Combat Corona</h6>
+                                <span>Project, Video Game</span>
+                            </div>
+                        </div>
+
+                        <!-- gallery item -->
+                        <div class="col-lg-4 col-md-6 items projects">
+                            <div class="item-img wow fadeInUp" data-wow-delay=".4s">
+                                <a href="terminator.html">
+                                    <img src="img/portfolio/Terminator/small.webp" alt="image">
+
+                                </a>
+                            </div>
+                            <div class="cont">
+                                <h6>The Terminator</h6>
+                                <span>Project, Product</span>
+                            </div>
+                        </div>
+
+                        <!-- gallery item -->
+                        <div class="col-lg-4 col-md-6 items workshops lg-mr">
+                            <div class="item-img wow fadeInUp" data-wow-delay=".4s">
+                                <a href="android-app-development-18.html">
+                                    <img src="img/portfolio/appdev/small.webp" alt="image">
+
+                                </a>
+                            </div>
+                            <div class="cont">
+                                <h6>Andrdoid App Developemnt</h6>
+                                <span>Workshops, Applications</span>
+                            </div>
+                        </div>
+
+                        <!-- gallery item -->
+                        <div class="col-lg-4 col-md-6 items competitions">
+                            <div class="item-img wow fadeInUp" data-wow-delay=".4s">
+                                <a href="wro18.html">
+                                    <img src="img/portfolio/wro/2018.webp" alt="image">
+
+                                </a>
+                            </div>
+                            <div class="cont">
+                                <h6>World Robotics Olympiad, 2018</h6>
+                                <span>Competitions, National</span>
+                            </div>
+                        </div>
+
+                        <!-- gallery item -->
+                        <div class="col-lg-4 col-md-6 items competitions">
+                            <div class="item-img wow fadeInUp" data-wow-delay=".4s">
+                                <a href="wro19.html">
+                                    <img src="img/portfolio/wro/2019.webp" alt="image">
+
+                                </a>
+                            </div>
+                            <div class="cont">
+                                <h6>World Robotics Olympiad, 2019</h6>
+                                <span>Competitions, National</span>
+                            </div>
+                        </div>
+
+                        <!-- gallery item -->
+                        <div class="col-lg-4 col-md-6 items workshops">
+                            <div class="item-img wow fadeInUp" data-wow-delay=".4s">
+                                <a href="quadcopter-workshop.html">
+                                    <img src="img/portfolio/Quadcopterw/small.webp" alt="image">
+
+                                </a>
+                            </div>
+                            <div class="cont">
+                                <h6>Quadcopter Workshop</h6>
+                                <span>Workshops, Robotics</span>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 items competitions">
+                            <div class="item-img wow fadeInUp" data-wow-delay=".4s">
+                                <a href="techfest18.html">
+                                    <img src="img/portfolio/techfest/small.webp" alt="image">
+
+                                </a>
+                            </div>
+                            <div class="cont">
+                                <h6>Techfest 2018</h6>
+                                <span>Competitions, National</span>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 items competitions">
+                            <div class="item-img wow fadeInUp" data-wow-delay=".4s">
+                                <a href="fll18.html">
+                                    <img src="img/portfolio/fll/small.webp" alt="image">
+
+                                </a>
+                            </div>
+                            <div class="cont">
+                                <h6>FIRST LEGO Leauge 2018</h6>
+                                <span>Competitions, National</span>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 items workshops">
+                            <div class="item-img wow fadeInUp" data-wow-delay=".4s">
+                                <a href="lego-education.html">
+                                    <img src="img/portfolio/legoedu/small.webp" alt="image">
+
+                                </a>
+                            </div>
+                            <div class="cont">
+                                <h6>Lego & Robotics</h6>
+                                <span>Workshops, Robotics</span>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 items workshops">
+                            <div class="item-img wow fadeInUp" data-wow-delay=".4s">
+                                <a href="3dprinting-18.html">
+                                    <img src="img/portfolio/3dprinting/small.webp" alt="image">
+
+                                </a>
+                            </div>
+                            <div class="cont">
+                                <h6>3D Printing</h6>
+                                <span>Workshops, 3D Design</span>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 items workshops">
+                            <div class="item-img wow fadeInUp" data-wow-delay=".4s">
+                                <a href="robocup-18.html">
+                                    <img src="img/portfolio/robocup/small.webp" alt="image">
+
+                                </a>
+                            </div>
+                            <div class="cont">
+                                <h6>RoboCup</h6>
+                                <span>Workshops, Robotics</span>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 items workshops">
+                            <div class="item-img wow fadeInUp" data-wow-delay=".4s">
+                                <a href="lego-summer-school.html">
+                                    <img src="img/portfolio/legoedu/small.webp" alt="image">
+
+                                </a>
+                            </div>
+                            <div class="cont">
+                                <h6>Lego Summer School</h6>
+                                <span>Workshops, Robotics</span>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 items competitions coming-up">
+                            <div class="item-img wow fadeInUp" data-wow-delay=".4s">
+                                <a href="ftc-20.html">
+                                    <img src="img/portfolio/ftc/small.webp" alt="image">
+
+                                </a>
+                            </div>
+                            <div class="cont">
+                                <h6>FIRST Tech Challenge 2020</h6>
+                                <span>Competitions, National</span>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 items competitions coming-up">
+                            <div class="item-img wow fadeInUp" data-wow-delay=".4s">
+                                <a href="frc-20.html">
+                                    <img src="img/portfolio/frc/small.webp" alt="image">
+
+                                </a>
+                            </div>
+                            <div class="cont">
+                                <h6>FIRST Robotics Competition 2020</h6>
+                                <span>Competitions, National</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== End works ==================== -->
+
+        <!-- ==================== Start Footer ==================== -->
+
+        <footer class="footer-half sub-bg">
+            <div class="container">
+                <div class="copyrights text-center mt-0">
+                    <p>© 2020, The Next Generation.</p>
+                </div>
+            </div>
+        </footer>
+
+        <!-- ==================== End Footer ==================== -->
+
+    </div>
+
+
+
+
+    <!-- jQuery -->
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="js/jquery-migrate-3.0.0.min.js"></script>
+
+    <!-- plugins -->
+    <script src="js/plugins.js"></script>
+
+
+    <!-- custom scripts -->
+    <script src="js/scripts.js"></script>
+
+
+</body>
+
+</html>
